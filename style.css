@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:white;
+}
+.slider{
+    /* margin-top: px; */
+    background-image: url(slider.jpg);
+    /* background-size: cover; */
+     background-repeat: no-repeat; 
+    height: 600px;
+    width: 100%;
+    animation-duration: 6s;
+    animation-name: shu;
+    animation-iteration-count: infinite;
+
+     
+}
+@keyframes shu {
+    to{background-image: url('slider.jpg'); width: 100%; height: 600px;}
+    from{background-image: url('running.jpg'); width: 100%; height: 600px;}
+   
+    
+}
+.navbar{
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+ }
+.navbar li{
+    position: relative;
+    /* left: 150px; */
+    display: flex;
+    display: inline;
+    margin-left: 20px;
+    /* padding: 80px;  */
+    margin-right: 30px;
+
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.navbar li a{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    top:30px;
+    margin-top: 30px;
+    text-decoration: none; 
+    margin-left: 15px;
+    color: brown;
+}
+.navbar li a:hover{
+    color: black;
+}
+.navbar img{
+    position: relative;
+    top: 40px;
+    width: 90px;
+    
+}
+
+.navbar input{
+    float: right;
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    /* margin-top: 30px; */
+    /* padding-left: 10px; */
+    margin-right: 80px;
+    border: none;
+    box-shadow: 5px 6px 7px grey;
+}
+.box{
+    display: flex;
+    margin-top: 40px;
+}
+.na1{
+    margin-left: 40px;
+    background-color: white;
+    height: 200px;
+    width: 450px;
+}
+.na1 img:hover{
+    transform: scale(1.09);
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+.na1 img{
+    height: 200px;
+    width: 450px;
+}
+.na2 img:hover{
+    transform: scale(1.09);
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+.na2{
+    margin-left: 40px;
+    background-color: white;
+    height: 200px;
+    width: 450px;
+
+}
+.na2 img{
+    height: 200px;
+    width: 450px;
+}
+.na3{
+    margin-left: 40px;
+    background-color: white;
+    height: 200px;
+    width: 450px;
+}
+.na3 img:hover{
+    transform: scale(1.09);
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+.na3 img{
+    height: 200px;
+    width: 450px;
+}
+.h1{
+    text-align: center; 
+    margin-top: 20px;
+}
+.product{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.pro1{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-left: 60px;
+
+}
+.pro1 img{
+    height: 200px;
+    width: 300px;
+}
+.pro1 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-out;
+    cursor: pointer;
+
+}
+.pro2{background-color: black;
+    height: 200px;
+    width: 300px;
+     margin-left: 60px;
+
+}
+.pro2 img{
+    height: 200px;
+    width: 300px;
+}
+.pro2 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-out;
+    cursor: pointer;
+}
+
+.pro3{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-left: 60px;
+
+}
+.pro3 img{
+    height: 200px;
+    width: 300px;
+}
+.pro3 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-out;
+    cursor: pointer;
+}
+.pro4{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-left: 60px;
+
+}
+.pro4 img{
+    height: 200px;
+    width: 300px;
+}
+.pro4 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-out;
+    cursor: pointer;
+}
+
+.kk h2{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.kk1 h2{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.kk2 h2{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.kk3 h2{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.banner img{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+}
+.banner img:hover{
+    transform:scale(1.05);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.bikes h1{
+    margin-top: 20px;
+    margin-left: 700px;
+}
+.bikes h2{
+    margin-left: 600px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.bike1{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+
+    float: left;
+    margin-left: 50px;
+}
+.bike1 img{
+    height: 200px;
+    width: 300px;
+}
+.bike1 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.bikes2{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+}
+.bikes2 img{
+    height: 200px;
+    width: 300px;
+
+}
+.bikes2 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.bikes3{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 50px;
+}
+.bikes3 img{
+    height: 200px;
+    width: 300px;
+}
+.bikes3 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.bikes4{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+
+}
+.bikes4 img{
+    height: 200px;
+    width: 300px;
+}
+.bikes4 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+
+.img-box{
+    margin-left: 20px;
+}
+.banner2{
+    margin-top:180px;
+     margin-left: 80px;
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    float: left;
+
+} 
+.banner3{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    margin-top: 180px;
+    float: left;
+    margin-left: 80px;
+
+}
+.banner2 img{
+    height: 300px;
+    width: 600px;
+}
+.banner3 img{
+    height: 300px;
+    width: 600px;
+}
+.cric h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 750px;
+    margin-right: 60px;   
+}
+.cric p{
+    text-align: center;
+    padding-right: 60px;
+}
+.crick1{
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+.crick1 img{
+    height: 200px;
+    width: 400px;
+}
+.crick1 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.crick2{
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+.crick2 img{
+    height: 200px;
+    width: 400px;
+}
+.crick2 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.crick3{
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+.crick3 img{
+    height: 200px;
+    width: 400px;
+}
+.crick3 img:hover{
+    transform: scale(1.25);
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+.football-banner img{
+    height: 300px;
+    width: 100%;
+    margin-top: 90px;
+
+}
+.football h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.football p{
+    text-align: center;
+}
+.football1{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.football1 img{
+    height: 200px;
+    width: 300px;
+}
+.football2{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.football2 img{
+    height: 200px;
+    width: 300px;
+}
+.football3{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.football3 img{
+    height: 200px;
+    width: 300px;
+}
+.football4{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.football4 img{
+    height: 200px;
+    width: 300px;
+}
+
